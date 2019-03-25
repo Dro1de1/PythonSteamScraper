@@ -37,7 +37,7 @@ params = {
         'https://Steamcommunity.com/market/priceoverfiew/':'',
         'currency': '3',
         'appid': '730',
-        'market_hash_name':''
+        'market_hash_name':' '
     }
 
 steamStickerId = ["BIG","Ninjas in Pyjamas","Astralis","Team Liquid","Team Spirit","FACEIT","HellRaisers","Cloud9","Winstrike Team","Rogue","FaZe Clan"]
@@ -46,15 +46,17 @@ def AssembleStickerHash(n):
     steamStickerHash = "Sticker | "+ steamStickerId[n] +" | London 2018"
     print(steamStickerHash)
     return steamStickerHash
+    
 
 stickerNr = 3
-def RequestPrice(n):
+def RequestPrice():
     # steamURLStart = "https=//steamcommunity.com/market/priceoverfiew/currency="+ steamCurrency +"&appid="+ steamAppid +"&market_hash_name="+ AssembleStickerHash(n)
-    inter = ""+AssembleStickerHash(stickerNr)
-    interC = ""+parse.urlencode(inter)
-    steamStickerHash=params + interC
+    inter = str(AssembleStickerHash(stickerNr))
+    params.market_hash_name = inter
+    # interC = parse.urlencode(inter)
+    steamStickerHash=parse.urlencode(params) + interC
     print(steamStickerHash)
     steamItemPriceR = request.urlopen(steamStickerHash)
     print(steamItemPriceR.read())
 
-RequestPrice(2)
+RequestPrice()
