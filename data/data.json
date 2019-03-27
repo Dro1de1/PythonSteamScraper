@@ -1,0 +1,64 @@
+[
+    {
+        "Name":"",
+        "init":true,
+        "currency":3,
+        "appid": 730,
+        "url_Anfang":"https://steamcommunity.com/market/priceoverview/?"
+    },
+    {
+        "Name":"Sticker | Astralis | London 2018",
+        "Einkaufspreis":0.30,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | BIG | London 2018",
+        "Einkaufspreis":0.15,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | Cloud9 | London 2018",
+        "Einkaufspreis":0.27,
+        "Stueckzahl":5
+    },
+    {
+        "Name":"Sticker | FACEIT | London 2018",
+        "Einkaufspreis":0.25,
+        "Stueckzahl":5
+    },
+    {
+        "Name":"Sticker | FaZe Clan | London 2018",
+        "Einkaufspreis":0.25,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | HellRaisers | London 2018",
+        "Einkaufspreis":0.25,
+        "Stueckzahl":5
+    },
+    {
+        "Name":"Sticker | Ninjas in Pyjamas | London 2018",
+        "Einkaufspreis":0.20,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | Rogue | London 2018",
+        "Einkaufspreis":0.20,
+        "Stueckzahl":3
+    },
+    {
+        "Name":"Sticker | Team Liquid | London 2018",
+        "Einkaufspreis":0.20,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | Team Spirit | London 2018",
+        "Einkaufspreis":0.25,
+        "Stueckzahl":10
+    },
+    {
+        "Name":"Sticker | Winstrike Team | London 2018",
+        "Einkaufspreis":0.20,
+        "Stueckzahl":10
+    }
+]
